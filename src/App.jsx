@@ -23,7 +23,7 @@ function App() {
 
       <button onClick={handelClick}>Click Me</button>
       <button className='btn' onClick={() => {alert('This is short chat ')}}>Click Me 2</button>
-      {/* btn */}
+     
       <button onClick={ () => { AddToClick(3)}}>Click Me 3</button>
     </>
   )
